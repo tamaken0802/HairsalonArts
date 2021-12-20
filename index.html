@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Hair Salon Arts</title>
+<meta name="robots" content="noindex,follow">
+<style>
+@charset "utf-8";a,abbr,acronym,address,applet,article,aside,audio,big,blockquote,body,caption,cite,code,dd,del,dfn,dialog,div,dl,dt,em,fieldset,figcaption,figure,font,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,iframe,ins,kbd,label,legend,li,mark,menu,nav,object,ol,p,pre,q,s,samp,section,small,span,strike,sub,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,ul,var,video{border:0;font-size:inherit;font-family:inherit;font-style:inherit;font-weight:inherit;margin:0;outline:0;padding:0;vertical-align:baseline;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-o-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;max-height:999999px}a{margin:0;padding:0;font-size:100%;vertical-align:baseline;text-decoration:none!important;color:#000;-webkit-transition:.5s;transition:.5s}body{font-size:16px;-webkit-text-size-adjust:100%;line-height:1;background:#fff;color:#000;font-family:Verdana,"Hiragino Kaku Gothic Pro","ヒラギノ角ゴ Pro W3","メイリオ",Meiryo,"ＭＳ Ｐゴシック","Helvetica Neue",Helvetica,Arial,sans-serif;word-wrap:break-word;overflow:hidden;background-color:#FEF2E8;}
+	#mv{position: relative;}
+	#mv .box{
+        font-family: serif;
+		position: absolute;
+		color: #F84031;
+		width: 100%;
+	}
+	#mv h1{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+		font-size:50px;
+		font-weight: bold;
+	}
+	#mv h2{
+		font-size:100px;
+		font-weight: bold;
+        color:rgb(248, 105, 3);
+	}
+	#mv .p1{
+		margin-top: 15px;
+		line-height: 1.6;
+		font-size: 50px;
+        top: 300px;
+        color:rgb(248, 105, 3);
+	}
+    #mv .p2{
+		margin-top: 15px;
+		line-height: 1.6;
+		font-size: 40px;
+        top: 300px;
+        color:rgb(248, 105, 3);
+	}
+    #mv .p3{
+		margin-top: 15px;
+		line-height: 1.6;
+		font-size: 50px;
+        color:rgb(0, 0, 0);
+	}
+
+	@media only screen and (max-width:750px){
+		#mv {
+			height: 100vh;
+			overflow: hidden;
+		}
+		#mv .box{
+			height: 100%;
+		}
+		#mv .box{
+			left: 20px;
+			top: 20px;
+		}
+		#mv h1{
+			font-size: 100px;
+		}
+		#mv .p2{
+			display: none;
+		}
+	}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+<div id="mv">
+	<div class="box">
+	<h1>謹<br>賀<br>新<br>年</h1>
+    <p class="p2">ヘアーサロン</p>
+	<p class="p1">HAIR SALON</p>
+    <h2>Arts</h2>
+	
+	</div>
+<canvas id="canvas"></canvas>
+</div>
+
+<script src="js/three.min.js"></script>
+<script src="js/OrbitControls.js"></script>
+
+<script src="js/OBJLoader.js"></script>
+<script src="js/MTLLoader.js"></script>
+
+<script src="js/script.js"></script>
+
+<div id="container">
+	<div id="item"></div>
+</div>
+
+</html>
