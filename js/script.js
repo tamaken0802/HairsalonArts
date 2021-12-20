@@ -37,7 +37,7 @@ $(function(){
                 objmodel = object.clone();
                 obj = new THREE.Object3D();
                 obj.add(objmodel);
-                obj.position.set(-63, -63, -63);
+                obj.position.set(0, 0, 0);
                 scene.add(obj);        
             }
         );
