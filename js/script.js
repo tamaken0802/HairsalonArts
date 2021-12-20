@@ -20,6 +20,7 @@ $(function(){
 	hemisphereLight = new THREE.HemisphereLight(0xffffff,0x4169e1, 0.15);
 	scene.add(hemisphereLight);
 	scene.add(ambientLight);
+	scene.add(AmbientLight)
 
 	// マウス操作
 	var controls = new THREE.OrbitControls(camera);
