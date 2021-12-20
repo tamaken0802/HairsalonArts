@@ -28,7 +28,7 @@ $(function(){
 
 	// MTL,Obj読み込み
 	new THREE.MTLLoader().setPath('./obj/')
-    .load('HAIRSALOMArts.mtl',
+    .load('HAIRSALONArts.mtl',
     function(materials){
         materials.preload();
         new THREE.OBJLoader().setPath('./obj/').setMaterials(materials).load('HAIRSALONArts.obj',
