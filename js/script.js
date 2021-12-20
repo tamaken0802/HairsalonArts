@@ -28,10 +28,10 @@ $(function(){
 
 	// MTL,Obj読み込み
 	new THREE.MTLLoader().setPath('./obj/')
-    .load('chr_sword.mtl',
+    .load('HAIRSALOMArts.mtl',
     function(materials){
         materials.preload();
-        new THREE.OBJLoader().setPath('./obj/').setMaterials(materials).load('chr_sword.obj',
+        new THREE.OBJLoader().setPath('./obj/').setMaterials(materials).load('HAIRSALONArts.obj',
               function(object){
                 objmodel = object.clone();
                 obj = new THREE.Object3D();
